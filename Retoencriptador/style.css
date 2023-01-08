@@ -1,0 +1,126 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background:#d8dfd8;
+}
+
+.conteiner{
+    margin: auto;
+    width: 960px;
+    height: 650px;
+    padding: 5px;
+    background:#f3f5fc;
+}
+
+.logo{
+    width: 100%;
+    float: left;
+    background: linear-gradient(#f3f5fc,#0A3871) 24px;
+}
+
+.left{
+    float: left;
+    width: 70%;
+    height: 70%;
+    border-radius: 24px;
+    background: rgb(249, 246, 246);
+}
+
+.right{
+    float: right;
+    width: 30%;
+    height: auto;
+    border-radius: 24px;
+    background: radial-gradient(#0A3871,#f3f5fc);
+}
+
+.left-button{
+    float: left;
+    width: 70%;
+    height: auto;
+    border-radius: 24px;
+    font-style: italic;
+}
+
+.logoimg{
+    margin-top: 1%;
+    margin-left: 5%;
+    float: inherit;
+}
+
+.title{
+    float: inherit;
+    margin: left;
+}
+
+.text-input{
+    float: left;
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 80%;
+    height: 80%;
+    color: #0A3871;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background: #f3f5fc;
+    
+}
+
+#imgDer{
+    margin-left: 2%;
+    margin-top: 20%;
+    width: 90%;
+    height: auto;
+}
+
+#texto{
+    margin-left: 8%;
+    margin-right: 5%;
+}
+
+#texto2{
+    float: left;
+    margin-left: 10%;
+    color: #0A3871;
+    width: 80%;
+    height: 60%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+#btnencriptar{
+padding: 24px;
+width: 30%;
+height: 60%;
+border-radius: 24px;
+margin-left: 15%;
+background: #0A3871;
+}
+
+#btndesencriptar{
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 10%;
+    background: #d8dfd8;;
+    }
+
+    #copiar{
+        margin-left: 33%;
+        margin-top: 90%;
+        padding: 24px;
+        width: 40%;
+        height: 10%;
+        background:#d8dfd8 ;
+        border-radius: 24px;
+        display: none;
+    }
+
+    #foot{
+        margin-bottom: auto;
+        background: #0A3871;
+        color: #d8dfd8;
+    }
